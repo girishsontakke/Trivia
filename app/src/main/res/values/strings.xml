@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="out_of_text">Question: %d/%d</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_false">False</string>
+    <string name="btn_true">True</string>
+    <string name="questions_out_of_text">Questions: %s/%s</string>
+    <string name="btn_prev">Prev</string>
+    <string name="correct_ans">Congratulations! your answer is correct</string>
+    <string name="wrong_ans">Oops! your answer is wrong</string>
+    <string name="score">Score: %s</string>
+</resources>
