@@ -17,6 +17,7 @@ import com.example.trivia.controller.AppController;
 import com.example.trivia.data.Repository;
 import com.example.trivia.databinding.ActivityMainBinding;
 import com.example.trivia.model.Question;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 
@@ -89,7 +90,8 @@ public class MainActivity extends AppCompatActivity {
         }
         sharedPreferencesEditor.apply();
         updateQuestion();
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+        Snackbar.make(MainActivity.this, binding.cardViewQuestion,
+                getText(message), Snackbar.LENGTH_SHORT).show();
     }
 
     private void onNextButtonClick(View view) {
